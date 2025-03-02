@@ -83,17 +83,29 @@ The best model configuration found in experiments is:
 - Optimizer: `Adam`
 - Learning Rate: `0.001`
 - Kernel Intialization: `Xavier`
+- Batch_size : `32`
 - Accuracy : `98%`
 
-**Model 1**
+**Model 2**
 - Hidden Layers: `[128, 64, 64, 64, 32]`
+- Output units : `10`
+- Output activation : `softmax`
+- Activation: `ReLU`
+- Optimizer: `RMSprop`
+- Learning Rate: `0.001`
+- Kernel Intialization: `Xavier`
+- Batch_size : `64`
+- Accuracy : `97.5%`
+
+**Model 3**
+- Hidden Layers: `[128, 64, 64, 32]`
 - Output units : `10`
 - Output activation : `softmax`
 - Activation: `ReLU`
 - Optimizer: `Adam`
 - Learning Rate: `0.001`
 - Kernel Intialization: `Xavier`
-- Accuracy : `98%`
+- Accuracy : `97.8%`
 
 ## Conclusion
 
